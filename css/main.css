@@ -1439,7 +1439,7 @@ footer::before {
 .blog-card:hover img.blog-img {
   transform: scale(1.05);
 }
-.blog-card h5{
+.blog-card h3{
     color: var(--Secondary-color);
 }
 
