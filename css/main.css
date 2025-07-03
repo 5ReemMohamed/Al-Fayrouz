@@ -435,7 +435,7 @@ body {
     z-index: 2;
 }
 
-.hero-title {
+.hero-title,h1 {
     font-size: 4rem;
     font-weight: 900;
     margin-bottom: 1rem;
@@ -891,7 +891,7 @@ body {
 /* Services Highlight Enhanced */
 .services-highlight {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+                url('../images/services-bg.avif') center/cover no-repeat;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -1430,6 +1430,19 @@ footer::before {
     color: var(--secondary-color) !important;
     text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
 }
+.blog-card img.blog-img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover img.blog-img {
+  transform: scale(1.05);
+}
+.blog-card h5{
+    color: var(--Secondary-color);
+}
+
 /* Back to Top Button */
 .back-to-top {
     position: fixed;
